@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const MovieCard = props => {
-  // const { title, director, metascore, stars } = props.movie;
+  const { title, director, metascore, stars } = props.movie;
   // const id = props.match.params.id
   // const movie = props.movies.find(movie => `${movie.id}` === id)
 

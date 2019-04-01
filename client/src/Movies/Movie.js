@@ -48,7 +48,7 @@ export default class Movie extends Component {
     return (
       <div className="save-wrapper">
         <div className="movie-card">
-          <MovieCard />
+          <MovieCard movie={this.state.movie} />
 
           {stars.map(star => (
             <div key={star} className="movie-star">
